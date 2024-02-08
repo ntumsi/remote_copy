@@ -3,18 +3,18 @@ import paramiko
 from shutil import copy2
 
 # Windows directory with the photos
-source_directory = 'D:\\Picframe\\'
+source_directory = 'source directory goes here'
 
 # Directory on Linux where you want to copy the photos
-target_directory = '/home/osmc/Pictures/'
+target_directory = 'enter target directory'
 
 # Files transferred between the directories
 file_count = 0
 
 # SSH details
-ssh_hostname = '192.168.86.27'
-ssh_username = 'osmc'
-ssh_password = 'osmc'  # or use key-based authentication
+ssh_hostname = 'enter host ip here'
+ssh_username = 'enter user name here'
+ssh_password = 'password goes here'  # or use key-based authentication
 ssh_port = 22  # default SSH port
 
 # Copy files from Windows to a temporary directory
